@@ -1,0 +1,13 @@
+<view class="xiaoluo-top">
+  这是我的测试页面
+</view>
+<view class="top">
+  <text class="des">款式图：</text>
+  <text class="des">{{userinfo.nickname}}</text>
+  <image class="xiao-pic" src="{{pic}}"></image>
+</view>
+
+<button bindtap="getUserinfo" data-name="hahaxiaoluo">获取用户数据</button>
+<view>{{name}}</view>
+
+

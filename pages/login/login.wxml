@@ -1,0 +1,19 @@
+<view  class="title">
+用户登录
+</view>
+<view class="icon-container">
+<image class="icon" src="../../images/user_s.png"></image>
+</view>
+ <form bindsubmit="formSubmit">
+        <view class="item">
+            <label>用户名</label>
+            <input value="{{(userinfo != '')?userinfo.phone:''}}" type="idcard" name="phone" placeholder="11位手机号码"/>
+        </view>
+        <view class="item">
+            <label>密码</label>
+            <input value="{{(userinfo != '')?userinfo.pwd:''}}" type="number" name="pwd" placeholder="请输入6位密码"></input>    
+        </view>
+        <view class="item bt">
+            <button formType="submit" class="btn">{{'登录'}}</button>
+        </view>
+    </form>

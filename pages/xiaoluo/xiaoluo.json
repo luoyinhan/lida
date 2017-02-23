@@ -1,0 +1,6 @@
+{
+    "enablePullDownRefresh":true,
+    "navigationBarTitleText": "测试title",
+    "navigationBarBackgroundColor": "#33FFCC",
+    "navigationBarTextStyle": "black"
+}

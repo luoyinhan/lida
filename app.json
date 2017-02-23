@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/xiaoluo/xiaoluo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F5B223",
+    "navigationBarTitleText": "丽达服装管理系统",
+    "navigationBarTextStyle":"#fff"
+  },
+  "debug": true,
+    "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  }
+}
